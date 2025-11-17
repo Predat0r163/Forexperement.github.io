@@ -1,0 +1,78 @@
+/* Общий фон */
+body {
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, pink, white);
+    font-family: Arial, sans-serif;
+}
+
+/* Заголовок */
+h1 {
+    color: #b30000;
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Описание */
+h4 {
+    color: #444;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Маленькая линия-разделитель */
+h6 {
+    color: #ccc;
+    text-align: center;
+}
+
+/* Заголовки секций */
+h3 {
+    color: #ff6200;
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+/* Красивый текст списка */
+pre, p {
+    font-size: 18px;
+    font-family: "Times New Roman", serif;
+    line-height: 1.5;
+}
+
+/* Ссылки */
+a {
+    color: #0066cc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Изображения настроения */
+img {
+    border-radius: 15px;
+    box-shadow: 0 0 10px #888;
+    margin: 10px;
+}
+
+/* Цвета для эмоций */
+.happy {
+    color: red;
+    font-weight: bold;
+}
+
+.sad {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Блоки для структурности */
+.section {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
